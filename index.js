@@ -1,6 +1,6 @@
 import * as navigation from "./modules/navigation.js";
 import { storage } from "./modules/localstorage.js";
-import * as Date from "./modules/Date.js";
+import * as showDate from "./modules/Date.js";
 import * as hide from "./modules/hideComponent.js";
 
 //Book class 
@@ -71,6 +71,7 @@ addBtn.addEventListener('submit', (e) => {
   location.reload();
 });
 
+showDate
 navigation
 hide
 
