@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Awsome Books</title>
-</head>
-<body>
-    <script src="index.js"></script>
-</body>
-</html>
+	<link rel="stylesheet" href="index.css">
+    <title>Awesome Books</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="heading-title">Awesome Books</h1>
+      <nav>
+        <ul>
+          <li id="nav-list">List</li>
+          <li id="nav-add-new">Add new</li>
+          <li id="nav-contact">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <p id="date"></p>
+    <section class="heading">
+      <h1>All Awesome Books</h1>
+      <hr>
+    </section>
+      <section class="bookC" id="list">
+        <ul class="bookscontainer"></ul>
+      </section>
+
+      <section class="AddBook" id="add-new">
+        <h2>Add a new book</h2>
+		<hr class="tinyhr">
+        <form class="form">
+          <input type="text" placeholder="Title" class="title" required> <br>
+          <input type="text" placeholder="Author" class="author" required><br>
+          <button type="submit" id="add-button">Add</button>
+        </form>
+    </section>
+    <section id="contact">
+      <div class="contact-container">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+          <p>Do you have any questions or do you just want to say "Hello"?</p>
+          <p>You can reach out to us!</p>
+          <ul>
+            <li>Our e-mail: awesomebooks@awesomebooks.com</li>
+            <li>Our phone number: 09876542657</li>
+            <li>Our address: Awesome Street, 22 North, Awesome City, Earth</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright © 2022 - Awesome Books</p>
+    </footer>
+		<script src="index.js"></script>
+  </body>
+  </html>
+  
