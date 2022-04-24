@@ -1,6 +1,7 @@
 import * as navigation from "./modules/navigation.js";
 import { storage } from "./modules/localstorage.js";
 import * as Date from "./modules/Date.js";
+import * as hide from "./modules/hideComponent.js";
 
 //Book class 
 // Select the Elements
@@ -71,6 +72,7 @@ addBtn.addEventListener('submit', (e) => {
 });
 
 navigation
+hide
 
 // Reload function
 window.onload = () => {
