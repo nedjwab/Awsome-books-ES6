@@ -1,9 +1,6 @@
-import { DateTime } from "./modules/luxon.js";
+import { DateTime } from "./modules/luxon.js"
+import * as navigation from "./modules/navigation.js";
 
-    const addNewSection = document.getElementById('add-new');
-    const contactSection = document.getElementById('contact');
+//Date section
     const dateSection = document.getElementById('date');
-    addNewSection.style.display = 'none';
-    contactSection.style.display = 'none';
-    dateSection.innerText = DateTime.now().toLocaleString(DateTime.DATETIME_MED
-    );
+    dateSection.innerText = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
