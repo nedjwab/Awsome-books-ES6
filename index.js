@@ -1,5 +1,5 @@
-import { storage } from './modules/localstorage.js';
-import { date } from './modules/Date.js';
+import storage from './modules/localstorage.js';
+import date from './modules/Date.js';
 
 // Book class
 // Select the Elements
