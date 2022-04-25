@@ -1,2 +1,4 @@
 // Data Storage
-export const storage = (books) => localStorage.setItem('books', JSON.stringify(books));
+/* eslint-disable import/prefer-default-export */
+const storage = (books) => localStorage.setItem('books', JSON.stringify(books));
+export { storage };

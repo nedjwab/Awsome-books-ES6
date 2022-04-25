@@ -1,7 +1,5 @@
-import * as navigation from './modules/navigation.js';
 import { storage } from './modules/localstorage.js';
-import * as showDate from './modules/Date.js';
-import * as hide from './modules/hideComponent.js';
+import { date } from './modules/Date.js';
 
 // Book class
 // Select the Elements
@@ -60,6 +58,34 @@ class Books {
 }
 
 let id;
+
+const addNewSection = document.getElementById('add-new');
+const contactSection = document.getElementById('contact');
+const ListSection = document.getElementById('list');
+
+document.querySelector('#nav-add-new').addEventListener('click', () => {
+  addNewSection.style.display = 'block';
+  contactSection.style.display = 'none';
+  ListSection.style.display = 'none';
+});
+
+document.querySelector('#nav-list').addEventListener('click', () => {
+  addNewSection.style.display = 'none';
+  contactSection.style.display = 'none';
+  ListSection.style.display = 'block';
+});
+
+document.querySelector('#nav-contact').addEventListener('click', () => {
+  addNewSection.style.display = 'none';
+  contactSection.style.display = 'block';
+  ListSection.style.display = 'none';
+});
+
+addNewSection.style.display = 'none';
+contactSection.style.display = 'none';
+
+const dateSection = document.getElementById('date');
+dateSection.innerText = date;
 
 // Add Book eventlistner
 addBtn.addEventListener('submit', (e) => {
