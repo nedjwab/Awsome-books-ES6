@@ -1,4 +1,3 @@
-
 const addNewSection = document.getElementById('add-new');
 const contactSection = document.getElementById('contact');
 const ListSection = document.getElementById('list');
@@ -20,6 +19,3 @@ document.querySelector('#nav-contact').addEventListener('click', () => {
   contactSection.style.display = 'block';
   ListSection.style.display = 'none';
 });
-
-
-

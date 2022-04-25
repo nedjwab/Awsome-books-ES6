@@ -1,9 +1,9 @@
-import * as navigation from "./modules/navigation.js";
-import { storage } from "./modules/localstorage.js";
-import * as showDate from "./modules/Date.js";
-import * as hide from "./modules/hideComponent.js";
+import * as navigation from './modules/navigation.js';
+import { storage } from './modules/localstorage.js';
+import * as showDate from './modules/Date.js';
+import * as hide from './modules/hideComponent.js';
 
-//Book class 
+// Book class
 // Select the Elements
 const container = document.querySelector('.bookscontainer');
 const addBtn = document.querySelector('form');
@@ -13,7 +13,9 @@ const authorI = document.querySelector('.author');
 // Class of Books
 class Books {
   static books = [];
+
   id = `${Date.now()}`.slice(-10);
+
   constructor(id, title, author) {
     this.id = id;
     this.title = title;
@@ -71,12 +73,7 @@ addBtn.addEventListener('submit', (e) => {
   location.reload();
 });
 
-showDate
-navigation
-hide
-
 // Reload function
 window.onload = () => {
   Books.displayBook();
 };
-
