@@ -1,10 +1,8 @@
 
 # Awsome Books
-
-In this Project we have built A Books websites.
+I Built This project in microverse's second module, in this single web application the user Can add, remove and display the list of books.
 
 ## Built With 🔨
-
 - HTML
 - CSS
 - javascript
