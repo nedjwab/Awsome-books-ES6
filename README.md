@@ -36,7 +36,8 @@ go to the index.html file .
 👤 **Nedjwa Bouraiou**
 
 - GitHub: [@Nedjwab](https://github.com/nedjwab)
-- LinkedIn: [@Bouraiounedjwa](https://www.linkedin.com/feed/)
+- LinkedIn: [@Bouraiounedjwa](https://www.linkedin.com/in/nedjwa-bouraiou-512a5015a/)
+- Twitter: [@ned_jwa](https://twitter.com/ned_jwa)
 
 
 
