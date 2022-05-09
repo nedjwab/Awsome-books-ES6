@@ -14,7 +14,7 @@ I Built This project in microverse's second module, in this single web applicati
 ### Install
 Download the zip file.
 extract the folder.
-go to the index.html file .
+go to the index.html file.
 
 
 ### Prerequisites
@@ -27,7 +27,7 @@ go to the index.html file .
 ### Usage
 
 - For anyone who wants to practice html5 or/and css3
-- For anyone who wants to create CRUD website.
+- For anyone who wants to create a CRUD website.
 
 ## Authors
 
